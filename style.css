@@ -1,0 +1,211 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+/* header */
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(70, 50, 39, 0.75);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+.brand-name {
+    float: left;
+    line-height: 65px;
+    color: white;
+    margin-top:-3px;
+}
+  
+.nav-link {
+    float: right;
+    margin-right: -25px;
+}
+  
+.nav-link a {
+    line-height: 65px;
+    padding: 0px 40px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    text-decoration: none;   
+}
+  
+.nav-link a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.login{
+    margin-left: 200px;
+}
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+/* jumbotron */
+.jumbotron {
+    padding: 180px 0 100px 0;
+    background-image: url(./img/budapes.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    box-shadow: 20px 20px 50px grey;
+}
+  
+.title h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+  
+.title p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+    padding-bottom: 100px;
+}
+  
+.main-title{
+      display: flex;
+      width: 50%;
+      margin-left: 350px;   
+}
+.budapes{
+      padding-right: 25px;
+      border-right: 4px solid whitesmoke;
+}
+.hungari{
+    padding-left:25px
+}
+.promo h3{
+    font-size: 18px;
+    padding-right: 20px;
+    padding-bottom: 260px;
+}
+.promo span{
+    font-size: 24px;
+}
+.promo a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left:90px;
+}
+.title a:hover {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* content */
+.content{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.main-content p{
+    padding-top: 5px;
+    
+}
+.content a{
+    text-decoration: none;
+}
+.content h1{
+    margin:50px 0px 20px 0px;
+}
+.content input{
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+}
+.search a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    background-color: blueviolet;
+    border-radius: 4px;
+}
+.search a:hover{
+    color: white;
+}
+
+.main-content {
+    float: left;
+    width: 25%;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+  
+.img-content {
+    position: relative;
+}
+.content h2{
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 4px solid rgba(128, 128, 128, 0.555);
+    margin-bottom: 20px;
+    width: 180px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+}
+.price span{
+    text-decoration: line-through;
+}
+.discount{
+    padding-left: 30px;
+    border-left: 2px solid black;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+/* .main-content img:hover{
+    margin-top: -5px;
+    box-shadow:5px 5px 30px grey; 
+} */
+
+.clear{
+    clear: left;
+}
+footer{
+    height: 90px;
+    background-color: rgb(6, 16, 34);
+}
+footer h1{
+ color: white;
+ float: left;
+ line-height: 90px;
+}
+.sosmed{
+    float: right;
+    line-height: 90px;
+}
+.fa{
+    padding-right: 5px;
+    padding-left: 15px;
+}
+.sosmed a{
+    text-decoration: none;
+    color: white;
+    padding: 30px 0px;
+}
+.sosmed a:hover{
+    color: blue;
+}

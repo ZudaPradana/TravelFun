@@ -1,0 +1,76 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .main-title h1{
+      font-size:32px;
+    }
+    .nav-link{
+        padding-right: 5px;
+    }
+    .nav-link a{
+        padding: 0px 20px;
+    }
+    .login{
+        margin-left:20px ;
+    }
+    .main-title h1{
+        position: relative;
+        margin-top: -50px;
+    }
+    .budapes{
+        margin-left: -200px;
+    }
+    .main-content{
+        width:45%;
+        margin-bottom:100px;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .nav-link {
+      display: none;
+    }
+    .main-title{
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+    .budapes{
+        margin-left: 50px;
+    }
+    .promo h3{
+        font-size: 12px;
+        margin-left: -225px;
+        margin-top: -10px;
+    }
+    .promo span{
+        font-size: 16px;
+    }
+    .promo a{
+        padding-left: 10px;
+    }
+    footer{
+      text-align:center;
+    }
+    .menu-icon {
+      display: block;
+    }
+
+    .main-content{
+        width:100%;
+        padding-bottom:50px;
+    }
+
+    .sosmed{
+        float: none;
+        padding-top: 13px;
+        line-height: 0px;
+
+    }
+    footer h1{
+        float: none;
+        line-height: 20px;
+        padding-top: 10px;
+
+    }
+  }
+  
