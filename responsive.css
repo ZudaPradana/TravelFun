@@ -34,6 +34,9 @@
         margin-top: -50px;
         margin-left: -50px;
     }
+    .main-title h1{
+        font-size: 28px;
+    }
     .budapes{
         margin-left: 50px;
     }
@@ -41,7 +44,7 @@
         font-size: 12px;
         margin-left: -195px;
         margin-top: -10px;
-    
+    }
     .promo span{
         font-size: 16px;
     }
@@ -75,14 +78,34 @@
     }
   }
   
-/* @media(max-width:480px){
+@media(max-width:480px){
     .promo h3{
-        text-align: center;
+        margin-right: -90px;
     }
     .sosmed a{
         font-size:10px;
     }
+    
     footer h1{
         font-size: 14px;
     }
-} */
+    .main-title h1{
+        font-size: 24px;
+        padding-right: 10px;
+    }
+    .hungari{
+        padding-left: 10px;
+    }
+    .budapes{
+        padding-bottom: -20px;
+    }
+    .menu-icon{
+        padding-right: 80px;
+    }
+    .content h1{
+        font-size: 24px;
+    }
+    .search input{
+        width: 200px;
+    }
+}
